@@ -1,0 +1,51 @@
+{
+  "opening": "Od jakiegoś czasu brakuje mi energii.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 43,
+    "background": "Pracuje w biurze."
+  },
+  "facts": {
+    "detail_1": "Często marznie w ciepłym pokoju",
+    "detail_2": "Ma zaparcia i suchą skórę",
+    "detail_3": "Przybrała na wadze bez zmiany zwyczajów",
+    "distinction": "Zaparcia i marznięcie pojawiły się w podobnym okresie co zmęczenie."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Pierwotna niedoczynność tarczycy",
+    "differentiation": "W połączeniu z objawami wysokie TSH i niskie FT4 wspierają pierwotną niedoczynność tarczycy."
+  },
+  "actions": {
+    "tsh": {
+      "label": "TSH",
+      "title": "TSH",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "TSH podwyższone."
+    },
+    "ft4": {
+      "label": "FT4",
+      "title": "FT4",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "FT4 obniżone."
+    }
+  },
+  "indications": {
+    "tsh": [
+      "detail_1",
+      "detail_2"
+    ],
+    "ft4": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

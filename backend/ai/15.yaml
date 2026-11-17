@@ -1,0 +1,34 @@
+{
+  "opening": "Od kilku tygodni męczy mnie kaszel.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 62,
+    "background": "Jest na emeryturze.",
+    "history": [
+      {
+        "when": "6 tygodni temu",
+        "detail": "Do leczenia ciśnienia włączono ramipryl."
+      }
+    ]
+  },
+  "facts": {
+    "detail_1": "Kaszel jest suchy",
+    "detail_2": "Zaczął się kilka tygodni po zmianie leków",
+    "detail_3": "Nie towarzyszą mu świsty, katar ani gorączka",
+    "distinction": "Przed zmianą leków taki uporczywy kaszel mu się nie zdarzał."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Kaszel związany z inhibitorem ACE",
+    "differentiation": "Datę rozpoczęcia ramiprylu warto sprawdzić w historii leków. To kluczowa wskazówka w odróżnieniu tego kaszlu od astmy czy kaszlu po infekcji."
+  },
+  "actions": {}
+}

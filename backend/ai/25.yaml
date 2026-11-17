@@ -1,0 +1,41 @@
+{
+  "opening": "Od miesięcy często boli mnie brzuch.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 33,
+    "background": "Pracuje w gastronomii."
+  },
+  "facts": {
+    "detail_1": "Ból ma związek z wypróżnieniem",
+    "detail_2": "Na zmianę luźniejsze i twardsze stolce",
+    "detail_3": "Bez krwi w stolcu i utraty masy ciała",
+    "distinction": "Dolegliwości powtarzają się od miesięcy, a waga pozostaje stabilna."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Zespół jelita drażliwego",
+    "differentiation": "Znaczenie ma związek bólu z wypróżnieniem i zmiana rytmu stolca. Sama ujemna serologia nie rozpoznaje zespołu jelita drażliwego."
+  },
+  "actions": {
+    "celiac": {
+      "label": "tTG IgA",
+      "title": "tTG IgA",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "tTG IgA niepodwyższone przy prawidłowym całkowitym IgA."
+    }
+  },
+  "indications": {
+    "celiac": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

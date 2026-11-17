@@ -1,0 +1,42 @@
+{
+  "opening": "Częściej chodzę do toalety i czuję pieczenie.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 34,
+    "background": "Pracuje w biurze."
+  },
+  "facts": {
+    "detail_1": "Piecze przy oddawaniu moczu",
+    "detail_2": "Pojawiła się gorączka z dreszczami",
+    "detail_3": "Boli ją bok i ma nudności",
+    "distinction": "Dreszcze i ból boku dołączyły po pierwszych objawach przy oddawaniu moczu."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Podejrzenie odmiedniczkowego zapalenia nerek",
+    "note": "Podobny wynik moczu jak w zapaleniu pęcherza. Gorączka i ból boku zmieniają ocenę.",
+    "differentiation": "Gorączka, dreszcze i ból boku zmieniają ocenę mimo podobnego wyniku moczu jak w zapaleniu pęcherza."
+  },
+  "actions": {
+    "urine": {
+      "label": "Badanie ogólne moczu",
+      "title": "Badanie ogólne moczu",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Dodatnie azotyny i leukocyturia."
+    }
+  },
+  "indications": {
+    "urine": [
+      "detail_1",
+      "detail_3"
+    ]
+  }
+}

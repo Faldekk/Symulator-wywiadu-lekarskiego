@@ -1,0 +1,31 @@
+{
+  "opening": "Od paru dni wracają potworne bóle głowy.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 39,
+    "background": "Pracuje w handlu."
+  },
+  "facts": {
+    "detail_1": "Ból zawsze wokół prawego oka",
+    "detail_2": "Napady trwają od 45 do 90 minut",
+    "detail_3": "W trakcie napadu łzawi oko i trudno usiedzieć",
+    "detail_4": "Między napadami ból ustępuje. Nie ma gorączki ani utrzymującego się zatkania nosa lub gęstej wydzieliny.",
+    "distinction": "Podczas napadu łzawi prawe oko, a po napadzie łzawienie ustępuje."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "detail_4": "Objawy między napadami",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Klasterowy ból głowy",
+    "note": "Ból jest jednostronny, bardzo silny, trwa 45–90 minut i towarzyszy mu łzawienie po stronie bólu oraz niepokój ruchowy. Między napadami ustępuje. To wspiera rozpoznanie klasterowego bólu głowy w tej karcie.",
+    "differentiation": "Warto ustalić, czy objawy wokół oka występują razem z napadem. Wyraźne przerwy między napadami i niepokój ruchowy pomagają odróżnić ten przebieg od utrzymujących się dolegliwości zatokowych."
+  },
+  "actions": {}
+}

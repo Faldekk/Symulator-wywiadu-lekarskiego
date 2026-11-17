@@ -1,0 +1,42 @@
+{
+  "opening": "Kiepsko sypiam i jestem zmęczony.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 52,
+    "background": "Pracuje jako technik."
+  },
+  "facts": {
+    "detail_1": "Głośno chrapie",
+    "detail_2": "Partnerka widzi przerwy w oddychaniu",
+    "detail_3": "Po przespanej nocy nadal bywa senny",
+    "distinction": "Zdarza się przysypiać podczas spokojnych zajęć w dzień."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Podejrzenie obturacyjnego bezdechu sennego",
+    "differentiation": "Senność mimo czasu na sen i obserwowane przerwy w oddychaniu odróżniają ten przypadek od prostego niedosypiania."
+  },
+  "actions": {
+    "sleep": {
+      "label": "Poligrafia snu",
+      "title": "Poligrafia snu",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Zarejestrowano powtarzające się epizody obturacji podczas snu."
+    }
+  },
+  "indications": {
+    "sleep": [
+      "detail_1",
+      "detail_2",
+      "detail_3"
+    ]
+  }
+}

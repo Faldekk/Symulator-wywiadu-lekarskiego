@@ -1,0 +1,30 @@
+{
+  "opening": "Ból głowy wraca po pracy.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 34,
+    "background": "Pracuje zdalnie."
+  },
+  "facts": {
+    "detail_1": "Pulsuje po jednej stronie",
+    "detail_2": "Trwa zwykle kilkanaście godzin",
+    "detail_3": "Przeszkadzają światło i ruch; pojawiają się nudności",
+    "detail_4": "Nie ma objawów poprzedzających ból",
+    "distinction": "Podczas silniejszego bólu przerywa pracę i kładzie się w ciemnym pokoju."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "detail_4": "Dodatkowe informacje",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Migrena bez aury",
+    "differentiation": "Jednostronne pulsowanie, nudności i gorsza tolerancja światła oraz ruchu odróżniają tę kartę od napięciowego bólu głowy."
+  },
+  "actions": {}
+}

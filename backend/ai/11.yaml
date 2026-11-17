@@ -1,0 +1,28 @@
+{
+  "opening": "Od jakiegoś czasu brakuje mi energii.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 31,
+    "background": "Pracuje na nocne zmiany."
+  },
+  "facts": {
+    "detail_1": "W dni pracy sypia po cztery do pięciu godzin",
+    "detail_2": "W wolne dni po dłuższym śnie czuje się lepiej",
+    "detail_3": "Nie zasypia mimowolnie po przespanej nocy",
+    "distinction": "Po kilku dniach wolnego wraca do swojego zwykłego poziomu energii."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Niedobór snu związany z pracą zmianową",
+    "differentiation": "W tej karcie sen jest krótki z powodu grafiku, a poprawa po dłuższym śnie jest ważniejsza od samej skargi na zmęczenie."
+  },
+  "actions": {}
+}

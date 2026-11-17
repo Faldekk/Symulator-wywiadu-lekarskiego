@@ -1,0 +1,51 @@
+{
+  "opening": "Od jakiegoś czasu brakuje mi energii.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 32,
+    "background": "Pracuje w sklepie."
+  },
+  "facts": {
+    "detail_1": "Męczy się na schodach",
+    "detail_2": "Miesiączki są obfite od kilku miesięcy",
+    "detail_3": "Zdarza jej się zjadać kostki lodu",
+    "distinction": "Nie ma drętwienia stóp ani kłopotów z równowagą."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Niedokrwistość z niedoboru żelaza",
+    "differentiation": "Obfite miesiączki, mikrocytoza i niska ferrytyna są spójne z niedoborem żelaza. W planie warto uwzględnić przyczynę utraty żelaza."
+  },
+  "actions": {
+    "ferritin": {
+      "label": "Ferrytyna",
+      "title": "Ferrytyna",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Stężenie ferrytyny jest poniżej zakresu laboratorium."
+    },
+    "morphology": {
+      "label": "Morfologia",
+      "title": "Morfologia",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Niedokrwistość mikrocytarna."
+    }
+  },
+  "indications": {
+    "ferritin": [
+      "detail_2",
+      "detail_3"
+    ],
+    "morphology": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Symulator wywiadu</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="chat.js" defer></script>
+  <script src="voice.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="app-header">
+      <h1>Symulator wywiadu</h1>
+      <button id="theme-toggle" type="button" aria-pressed="false">Tryb ciemny</button>
+    </header>
+    <div class="layout">
+    <div class="sidebar">
+      <section class="patient-profile" aria-labelledby="profile-title">
+        <h2 id="profile-title">Karta pacjenta</h2>
+        <p id="profile-demographics"></p>
+        <p id="profile-background"></p>
+        <label for="difficulty">Trudność rozmowy</label>
+        <select id="difficulty">
+          <option value="normal">Standardowa</option>
+          <option value="hard">Trudna</option>
+        </select>
+        <details id="patient-history" hidden>
+          <summary>Historia pacjenta</summary>
+          <ul id="history-entries"></ul>
+        </details>
+      </section>
+      <details class="cases">
+        <summary>Scenariusze <span id="current-case"></span></summary>
+        <nav class="case-list" aria-label="Wybierz scenariusz"></nav>
+        <button id="random-case" type="button" disabled>Losuj przypadek</button>
+      </details>
+    </div>
+    <section aria-label="Czat">
+    <section id="messages" role="log" aria-label="Rozmowa"></section>
+    <p id="status" role="status"></p>
+    <section id="actions" aria-label="Plan wizyty" hidden></section>
+    <form>
+      <label for="message">Wiadomość lekarza</label>
+      <div class="composer">
+        <input id="message" type="text" maxlength="1500" placeholder="Zadaj pytanie…" required>
+        <button type="submit">Wyślij</button>
+      </div>
+      <div class="voice-controls">
+        <button id="mic" type="button">Nagraj pytanie</button>
+        <label><input id="auto-voice" type="checkbox"> Czytaj odpowiedzi pacjenta</label>
+      </div>
+    </form>
+    <details id="test-order" hidden>
+      <summary>Zleć badanie</summary>
+      <form id="test-form">
+        <label for="test-name">Nazwa badania</label>
+        <div class="composer">
+          <input id="test-name" maxlength="80" required>
+          <button type="submit">Zleć</button>
+        </div>
+      </form>
+    </details>
+    <audio id="voice-player" controls hidden aria-label="Głos pacjenta"></audio>
+    </section>
+    <aside aria-labelledby="patient-title">
+      <h2 id="patient-title">Panel pacjenta</h2>
+      <p id="case-summary"></p>
+      <section id="visit-stats" aria-label="Postęp wizyty" hidden>
+        <label for="trust-meter">Zaufanie pacjenta <span id="trust-value"></span></label>
+        <meter id="trust-meter" min="0" max="100"></meter>
+        <p id="interview-progress"></p>
+        <p id="visit-stage"></p>
+      </section>
+      <h3>Ustalenia z wywiadu</h3>
+      <p id="empty-facts">Szczegóły pojawią się w trakcie rozmowy.</p>
+      <dl id="facts"></dl>
+      <section id="lab-panel" hidden>
+        <h3>Wyniki badań</h3>
+        <p>Wyniki syntetyczne</p>
+        <div id="labs"></div>
+      </section>
+    </aside>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+{
+  "opening": "Od wczoraj boli mnie brzuch.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 24,
+    "background": "Studiuje."
+  },
+  "facts": {
+    "detail_1": "Ból przesunął się z okolicy pępka w prawy dół brzucha",
+    "detail_2": "Stracił apetyt i ma nudności",
+    "detail_3": "Chodzenie nasila ból",
+    "distinction": "Ból utrzymuje się i wyraźnie zmienił miejsce od wczoraj."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Podejrzenie ostrego zapalenia wyrostka robaczkowego",
+    "differentiation": "Narastający ból z migracją do prawego dołu brzucha i obraz USG przemawiają za pilną oceną podejrzenia zapalenia wyrostka."
+  },
+  "actions": {
+    "ultrasound": {
+      "label": "USG jamy brzusznej",
+      "title": "USG jamy brzusznej",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Poszerzony, niepoddający się uciskowi wyrostek z cechami zapalenia."
+    }
+  },
+  "indications": {
+    "ultrasound": [
+      "detail_1",
+      "detail_3"
+    ]
+  }
+}

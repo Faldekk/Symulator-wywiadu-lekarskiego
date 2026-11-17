@@ -1,0 +1,52 @@
+opening: "Od trzech dni lekko boli mnie głowa. Zapytałem AI i teraz boję się, że mam raka. Czy mogę dostać skierowanie na skan?"
+facts:
+  distinction: "Ból rozwinął się stopniowo. Nie było nagłego początku ani zaburzeń widzenia."
+  onset: "Trzy dni temu"
+  intensity: "Lekki, około 3 na 10"
+  sensation: "Tępy ucisk po obu stronach czoła"
+  timing: "Najbardziej zauważalny po południu"
+  ai_answer: "AI napisała, że guz jest jedną z możliwych przyczyn. Pacjent odebrał to jako rozpoznanie."
+behavior:
+  - "Gdy lekarz zbywa obawy, pacjent dopytuje, skąd lekarz ma pewność."
+  - "Gdy lekarz uznaje strach i dopytuje, pacjent spokojniej opisuje objawy."
+  - "Gdy lekarz tłumaczy plan, pacjent może się uspokoić i zapytać o kolejny krok."
+
+actions:
+  morphology:
+    label: "Zleć morfologię"
+    result: "Wynik syntetycznej morfologii jest dostępny w panelu pacjenta."
+  prescription:
+    label: "Wypisz receptę"
+    result: "Odnotowano wystawienie recepty w symulacji."
+  sick_leave:
+    label: "Wypisz zwolnienie"
+    result: "Odnotowano wystawienie zwolnienia w symulacji."
+  finish:
+    label: "Zakończ wizytę"
+    result: "Wizyta zakończona."
+
+fact_labels:
+  distinction: "Dodatkowe informacje"
+  onset: "Początek bólu"
+  intensity: "Nasilenie"
+  sensation: "Charakter bólu"
+  timing: "Pora dnia"
+  ai_answer: "Co napisała AI"
+
+labs:
+  - {name: "Hemoglobina", value: 14.2, unit: "g/dl", lower: 13.5, upper: 17.5}
+  - {name: "Leukocyty", value: 7.1, unit: "× 10⁹/l", lower: 4.0, upper: 10.0}
+  - {name: "Płytki krwi", value: 245, unit: "× 10⁹/l", lower: 150, upper: 450}
+
+profile:
+  sex: "Mężczyzna"
+  age: 28
+  background: "Pracuje przy komputerze."
+
+hard:
+  opening: "Boli mnie głowa i boję się, że to rak. Poprzedni lekarz powiedział: „Proszę nie gadać bzdur”. Pan też mnie tak potraktuje?"
+  behavior: "Pacjent jest przestraszony i zły po poprzedniej wizycie. Jeśli lekarz bagatelizuje obawy, pacjent prosi o wyjaśnienie i może odpowiedzieć ostrzej. Jeśli lekarz zauważa jego obawę i wyjaśnia konkretne kroki, pacjent stopniowo zaczyna współpracować."
+diagnosis:
+  differentiation: "Stopniowy, obustronny tępy ucisk o małym nasileniu wspiera rozpoznanie robocze. Wypowiedź AI tłumaczy niepokój pacjenta; o ocenie decydują cechy bólu i pytania o objawy alarmowe."
+  label: "Obraz zgodny z napięciowym bólem głowy w tym scenariuszu"
+

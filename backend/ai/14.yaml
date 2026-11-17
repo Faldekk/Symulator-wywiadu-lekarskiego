@@ -1,0 +1,28 @@
+{
+  "opening": "Od kilku tygodni męczy mnie kaszel.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 36,
+    "background": "Pracuje w księgarni."
+  },
+  "facts": {
+    "detail_1": "Kaszel zaczął się po przeziębieniu",
+    "detail_2": "Z każdym tygodniem jest słabszy",
+    "detail_3": "Bez świstów, duszności i powrotu gorączki",
+    "distinction": "Od ustąpienia przeziębienia kaszel wyraźnie traci na sile."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Kaszel po infekcji",
+    "differentiation": "Związek czasowy z infekcją i stopniowa poprawa wspierają kaszel po infekcji w tej karcie."
+  },
+  "actions": {}
+}

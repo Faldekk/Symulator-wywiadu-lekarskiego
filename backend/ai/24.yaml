@@ -1,0 +1,42 @@
+{
+  "opening": "Od miesięcy często boli mnie brzuch.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 33,
+    "background": "Pracuje w gastronomii."
+  },
+  "facts": {
+    "detail_1": "Wzdęcia i przewlekła biegunka",
+    "detail_2": "Chudnie mimo podobnego apetytu",
+    "detail_3": "Nadal je pieczywo i makarony",
+    "distinction": "W ostatnich tygodniach ubrania zrobiły się luźniejsze bez zmiany diety."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Podejrzenie celiakii",
+    "note": "Dodatni wynik serologii wspiera podejrzenie i wymaga dalszej oceny.",
+    "differentiation": "Utrata masy, przewlekła biegunka i dodatnia serologia kierują ocenę w stronę celiakii."
+  },
+  "actions": {
+    "celiac": {
+      "label": "tTG IgA",
+      "title": "tTG IgA",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Podwyższone tTG IgA przy prawidłowym całkowitym IgA."
+    }
+  },
+  "indications": {
+    "celiac": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "opening": "Częściej chodzę do toalety i czuję pieczenie.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 27,
+    "background": "Pracuje w biurze."
+  },
+  "facts": {
+    "detail_1": "Piecze przy oddawaniu moczu",
+    "detail_2": "Oddaje małe ilości moczu z silnym parciem",
+    "detail_3": "Bez gorączki i bólu boku",
+    "distinction": "Poza dolegliwościami przy oddawaniu moczu czuje się ogólnie dobrze."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Zapalenie pęcherza moczowego",
+    "differentiation": "Dolegliwości lokalne bez gorączki i bólu boku wspierają zakażenie dolnych dróg moczowych w tej karcie."
+  },
+  "actions": {
+    "urine": {
+      "label": "Badanie ogólne moczu",
+      "title": "Badanie ogólne moczu",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Dodatnie azotyny i leukocyturia."
+    }
+  },
+  "indications": {
+    "urine": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "opening": "Czuję dyskomfort w klatce piersiowej.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 41,
+    "background": "Pracuje w biurze."
+  },
+  "facts": {
+    "detail_1": "Pieczenie po późnym dużym posiłku",
+    "detail_2": "Nasila się po położeniu",
+    "detail_3": "Czasem ma kwaśny smak w ustach",
+    "detail_4": "Nie zauważa związku z wysiłkiem",
+    "distinction": "Pieczenie pojawia się częściej w dni, kiedy kładzie się zaraz po jedzeniu."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "detail_4": "Dodatkowe informacje",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Refluks żołądkowo-przełykowy",
+    "differentiation": "Związek z posiłkiem, pozycją leżącą i kwaśnym smakiem wspiera refluks w tej karcie. Nowy ból w klatce wymaga zachowania czujności wobec przyczyn sercowych."
+  },
+  "actions": {}
+}

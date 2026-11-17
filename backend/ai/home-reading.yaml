@@ -1,0 +1,64 @@
+opening: "W domu parę razy wyszło mi wysokie ciśnienie. Nic mnie nie boli, ale chciałem to sprawdzić."
+source:
+  dataset: "Synthea, 100 Sample Synthetic Patient Records (CSV)"
+  patient: "3f0c90c7-2489-1306-ff69-868509c56635"
+  encounter: "3f0c90c7-2489-1306-5863-489b008c08fa"
+  observation_date: "2024-04-06"
+  reference: "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+facts:
+  distinction: "Nie wie, czy domowy aparat był kiedykolwiek sprawdzany z aparatem w gabinecie."
+  timing: "Pierwszy wysoki odczyt w domu zauważył około dwóch tygodni temu"
+  technique: "Mierzy ciśnienie aparatem naramiennym, czasami zaraz po powrocie z pracy"
+  log: "Nie zapisywał wartości ani godzin pomiarów"
+  symptoms: "Nie zgłasza bólu w klatce piersiowej, duszności ani zaburzeń widzenia"
+  medicine: "Nie przyjmuje leków na ciśnienie"
+fact_labels:
+  distinction: "Dodatkowe informacje"
+  timing: "Pierwsze podwyższone pomiary"
+  technique: "Sposób pomiaru"
+  log: "Dzienniczek pomiarów"
+  symptoms: "Dopytane objawy"
+  medicine: "Leki na ciśnienie"
+behavior:
+  - "Pacjent czuje się dobrze i zastanawia się, czy aparat mógł się pomylić."
+diagnosis:
+  differentiation: "Wcześniejszy pomiar gabinetowy oraz obecny wynik wzmacniają podejrzenie. Brak uporządkowanego dzienniczka pozostawia pytanie o powtarzalność pomiarów."
+  code: "59621000"
+  label: "Nadciśnienie tętnicze pierwotne"
+  note: "Wynik 156/95 mmHg jest podwyższony. W ćwiczeniu liczy się też zaplanowanie potwierdzenia powtarzalnymi pomiarami."
+actions:
+  pressure:
+    label: "Zmierz ciśnienie"
+    title: "Ciśnienie tętnicze"
+    result: "Pomiar jest dostępny w panelu pacjenta."
+    source: "Synthea"
+    labs:
+      - {name: "Ciśnienie skurczowe", code: "8480-6", value: 156, unit: "mmHg", upper: 120, upper_exclusive: true}
+      - {name: "Ciśnienie rozkurczowe", code: "8462-4", value: 95, unit: "mmHg", upper: 80, upper_exclusive: true}
+
+
+  lipids:
+    label: "Zleć lipidogram"
+    result: "Lipidogram jest dostępny w panelu pacjenta."
+    source: "Synthea"
+    note: "Próg LDL w tym ćwiczeniu jest orientacyjny. Indywidualny cel zależy od ryzyka sercowo-naczyniowego."
+    labs:
+      - {name: "Cholesterol całkowity", code: "2093-3", value: 172.8, unit: "mg/dl", upper: 200, upper_exclusive: true}
+      - {name: "Cholesterol LDL", code: "18262-6", value: 104.2, unit: "mg/dl", upper: 100, upper_exclusive: true}
+      - {name: "Triglicerydy", code: "2571-8", value: 102.6, unit: "mg/dl", upper: 150, upper_exclusive: true}
+
+profile:
+  sex: "Mężczyzna"
+  age: 65
+  background: "Jest na emeryturze."
+  history:
+    - when: "4 miesiące temu"
+      detail: "W gabinecie odnotowano ciśnienie 148/92 mmHg. Zalecono domowe pomiary."
+    - when: "6 tygodni temu"
+      detail: "Pacjent nie przyniósł dzienniczka pomiarów. W dokumentacji brakuje serii odczytów z domu."
+
+
+
+indications:
+  pressure: [timing]
+  lipids: [timing]

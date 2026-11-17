@@ -1,0 +1,57 @@
+{
+  "opening": "Od jakiegoś czasu brakuje mi energii.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 58,
+    "background": "Pracuje w bibliotece.",
+    "history": [
+      {
+        "when": "6 lat temu",
+        "detail": "Przeszła operację pomostowania żołądkowego. Od kilku miesięcy nie przyjmuje zaleconej suplementacji."
+      }
+    ]
+  },
+  "facts": {
+    "detail_1": "Mrowienie obu stóp",
+    "detail_2": "Od pewnego czasu gorsza równowaga",
+    "detail_3": "Od kilku lat ogranicza produkty zwierzęce",
+    "distinction": "Mrowienie zaczęło się przed zauważalnymi problemami z równowagą."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Niedobór witaminy B12",
+    "differentiation": "Parestezje i wcześniejsza operacja żołądka pomagają odróżnić tę kartę od niedoboru żelaza. W scenariuszu obniżona B12 i wynik morfologii wspierają rozpoznanie."
+  },
+  "actions": {
+    "b12": {
+      "label": "Witamina B12",
+      "title": "Witamina B12",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Stężenie witaminy B12 jest obniżone."
+    },
+    "morphology": {
+      "label": "Morfologia",
+      "title": "Morfologia",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Podwyższone MCV i obniżona hemoglobina."
+    }
+  },
+  "indications": {
+    "b12": [
+      "detail_1",
+      "detail_2"
+    ],
+    "morphology": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

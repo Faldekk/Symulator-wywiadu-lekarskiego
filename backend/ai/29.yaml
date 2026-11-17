@@ -1,0 +1,47 @@
+{
+  "opening": "Od wczoraj spuchła mi jedna łydka.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 61,
+    "background": "Jest na zwolnieniu.",
+    "history": [
+      {
+        "when": "2 tygodnie temu",
+        "detail": "Przeszła operację stawu kolanowego i od tego czasu ma ograniczoną mobilność."
+      }
+    ]
+  },
+  "facts": {
+    "detail_1": "Obrzęk i ból dotyczą jednej łydki",
+    "detail_2": "Dużo mniej się rusza po operacji",
+    "detail_3": "Nie miała urazu łydki",
+    "distinction": "Obrzęk rozwijał się bez konkretnego ruchu czy urazu."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Zakrzepica żył głębokich",
+    "differentiation": "Niedawna operacja, ograniczenie ruchu i nieuciskalna żyła w USG są kluczowe dla rozpoznania w tej karcie."
+  },
+  "actions": {
+    "doppler": {
+      "label": "USG Doppler żył",
+      "title": "USG Doppler żył",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Żyła podkolanowa nie daje się ucisnąć."
+    }
+  },
+  "indications": {
+    "doppler": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

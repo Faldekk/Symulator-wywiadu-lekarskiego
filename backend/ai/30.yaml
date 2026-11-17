@@ -1,0 +1,40 @@
+{
+  "opening": "Od wczoraj spuchła mi jedna łydka.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 37,
+    "background": "Rekreacyjnie gra w tenisa."
+  },
+  "facts": {
+    "detail_1": "Poczuła nagłe szarpnięcie przy starcie do piłki",
+    "detail_2": "Pojawił się miejscowy siniak",
+    "detail_3": "Ból nasila się przy wspięciu na palce",
+    "distinction": "Potrafi wskazać dokładne miejsce, w którym poczuła szarpnięcie."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Uraz mięśnia brzuchatego łydki",
+    "differentiation": "Nagły początek przy wysiłku i miejscowy siniak wspierają uraz mięśnia. Ujemny Doppler należy odczytywać w kontekście całej oceny ryzyka."
+  },
+  "actions": {
+    "doppler": {
+      "label": "USG Doppler żył",
+      "title": "USG Doppler żył",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Żyły głębokie są uciskalne; w badaniu nie stwierdzono zakrzepicy."
+    }
+  },
+  "indications": {
+    "doppler": [
+      "detail_1"
+    ]
+  }
+}

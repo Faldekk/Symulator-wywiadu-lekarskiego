@@ -1,0 +1,62 @@
+opening: "Przyszedłem na kontrolę. Czuję się normalnie, ale tata ma cukrzycę i trochę mnie to zastanawia."
+source:
+  dataset: "Synthea, 100 Sample Synthetic Patient Records (CSV)"
+  patient: "166840bf-b4f9-b8f0-d1ab-010f8cba3f31"
+  condition_date: "2013-05-30"
+  observation_date: "2019-06-06"
+  reference: "https://doi.org/10.2337/dc26-S002"
+facts:
+  distinction: "Nie budzi się w nocy z powodu pragnienia."
+  family: "Ojciec choruje na cukrzycę typu 2"
+  activity: "Praca siedząca, sporadyczne spacery"
+  thirst: "Nie zauważa wzmożonego pragnienia"
+  urination: "Oddaje mocz tak często jak zwykle"
+  weight: "Waga ostatnio się nie zmieniła"
+fact_labels:
+  distinction: "Dodatkowe informacje"
+  family: "Wywiad rodzinny"
+  activity: "Aktywność fizyczna"
+  thirst: "Pragnienie"
+  urination: "Oddawanie moczu"
+  weight: "Waga"
+behavior:
+  - "Pacjent czuje się dobrze i pyta, po co robić badania bez objawów."
+diagnosis:
+  differentiation: "To bezobjawowa kontrola z obciążeniem rodzinnym. Poprzednie HbA1c 5,9% daje punkt odniesienia dla obecnego 6,2%."
+  code: "714628002"
+  label: "Stan przedcukrzycowy"
+  note: "HbA1c 6,2% mieści się w zakresie stanu przedcukrzycowego według ADA (5,7–6,4%)."
+actions:
+  hba1c:
+    label: "Zleć HbA1c"
+    result: "Wynik HbA1c jest dostępny w panelu pacjenta."
+    source: "Synthea"
+    labs:
+      - {name: "HbA1c", code: "4548-4", value: 6.2, unit: "%", upper: 5.7, upper_exclusive: true}
+
+
+  lipids:
+    label: "Zleć lipidogram"
+    result: "Lipidogram jest dostępny w panelu pacjenta."
+    source: "Synthea"
+    note: "Próg LDL w tym ćwiczeniu jest orientacyjny. Indywidualny cel zależy od ryzyka sercowo-naczyniowego."
+    labs:
+      - {name: "Cholesterol całkowity", code: "2093-3", value: 208.3, unit: "mg/dl", upper: 200, upper_exclusive: true}
+      - {name: "Cholesterol LDL", code: "18262-6", value: 119.9, unit: "mg/dl", upper: 100, upper_exclusive: true}
+      - {name: "Triglicerydy", code: "2571-8", value: 119.8, unit: "mg/dl", upper: 150, upper_exclusive: true}
+      - {name: "Cholesterol HDL", code: "2085-9", value: 64.5, unit: "mg/dl", lower: 40}
+
+profile:
+  sex: "Mężczyzna"
+  age: 46
+  background: "Pracuje w biurze."
+  history:
+    - when: "8 miesięcy temu"
+      detail: "Na wizycie kontrolnej HbA1c wyniosło 5,9%. Ustalono ponowne badanie za kilka miesięcy."
+    - when: "Od ostatniej wizyty"
+      detail: "Pacjent nie wykonał zaplanowanej kontroli."
+
+
+indications:
+  hba1c: [family]
+  lipids: [family, activity]

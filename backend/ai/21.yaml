@@ -1,0 +1,41 @@
+{
+  "opening": "Czasem kręci mi się w głowie.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 70,
+    "background": "Jest na emeryturze."
+  },
+  "facts": {
+    "detail_1": "Robi mu się ciemno przed oczami po wstaniu",
+    "detail_2": "Objaw ustępuje po ponownym siadaniu",
+    "detail_3": "Nie ma wrażenia wirowania",
+    "distinction": "Obrócenie się w łóżku nie wywołuje dolegliwości."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Hipotonia ortostatyczna",
+    "differentiation": "Wyzwalaczem jest wstanie. Spadkowi ciśnienia podczas próby towarzyszy odtworzenie objawów."
+  },
+  "actions": {
+    "orthostatic": {
+      "label": "Próba ortostatyczna",
+      "title": "Próba ortostatyczna",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Po wstaniu ciśnienie spadło z 132/76 do 104/64 mmHg, z odtworzeniem objawów."
+    }
+  },
+  "indications": {
+    "orthostatic": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

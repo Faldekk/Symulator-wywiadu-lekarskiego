@@ -1,0 +1,41 @@
+{
+  "opening": "Od kilku tygodni męczy mnie kaszel.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 29,
+    "background": "Pracuje w księgarni."
+  },
+  "facts": {
+    "detail_1": "Kaszel budzi w nocy",
+    "detail_2": "Miewa świsty po wysiłku i przy zimnym powietrzu",
+    "detail_3": "Pomiędzy epizodami oddycha swobodnie",
+    "distinction": "Dni bez objawów przeplatają się z nocami, gdy kaszel i świsty wracają."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Astma",
+    "differentiation": "Zmienność dolegliwości oraz odwracalność obturacji w wyniku spirometrii wspierają astmę."
+  },
+  "actions": {
+    "spirometry": {
+      "label": "Spirometria",
+      "title": "Spirometria",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Po leku rozszerzającym oskrzela FEV₁ zwiększył się o 16% i 320 ml."
+    }
+  },
+  "indications": {
+    "spirometry": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

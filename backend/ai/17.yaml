@@ -1,0 +1,49 @@
+{
+  "opening": "Czuję ucisk w klatce piersiowej.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 66,
+    "background": "Jest na emeryturze.",
+    "history": [
+      {
+        "when": "3 lata temu",
+        "detail": "Przebył angioplastykę tętnicy wieńcowej."
+      }
+    ]
+  },
+  "facts": {
+    "detail_1": "Ucisk pojawił się w spoczynku i trwa nadal",
+    "detail_2": "Promieniuje do lewego ramienia",
+    "detail_3": "Pacjent jest spocony i ma nudności",
+    "distinction": "Podobny ucisk przy wysiłku pamięta z przeszłości, ale obecny wystąpił w spoczynku."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Podejrzenie ostrego zespołu wieńcowego",
+    "note": "W tym ćwiczeniu priorytetem jest pilna ocena, także przed uzyskaniem wyniku badania.",
+    "differentiation": "Przebyta angioplastyka, utrzymujący się ucisk i objawy towarzyszące zwiększają pilność oceny."
+  },
+  "actions": {
+    "ecg": {
+      "label": "EKG",
+      "title": "EKG",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Obniżenia odcinka ST w odprowadzeniach bocznych."
+    }
+  },
+  "indications": {
+    "ecg": [
+      "detail_1",
+      "detail_2",
+      "detail_3"
+    ]
+  }
+}

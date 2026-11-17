@@ -1,0 +1,28 @@
+{
+  "opening": "Boli mnie w klatce piersiowej.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 30,
+    "background": "Pracuje przy przeprowadzkach."
+  },
+  "facts": {
+    "detail_1": "Zaczęło się po dźwiganiu",
+    "detail_2": "Jeden punkt boli przy uciśnięciu i skręcie tułowia",
+    "detail_3": "Bez duszności i omdlenia",
+    "distinction": "Może dokładnie wskazać bolesne miejsce końcem palca."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Ból ściany klatki piersiowej",
+    "differentiation": "Punktowy ból odtwarzany ruchem i uciskiem po dźwiganiu wspiera przyczynę mięśniowo-szkieletową. Sam ucisk nie służy do wykluczenia przyczyny sercowej."
+  },
+  "actions": {}
+}

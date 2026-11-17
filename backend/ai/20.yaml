@@ -1,0 +1,41 @@
+{
+  "opening": "Czasem kręci mi się w głowie.",
+  "profile": {
+    "sex": "Kobieta",
+    "age": 57,
+    "background": "Pracuje w szkole."
+  },
+  "facts": {
+    "detail_1": "Ma wrażenie wirowania przy obracaniu się w łóżku",
+    "detail_2": "Epizody trwają kilkanaście sekund",
+    "detail_3": "Nie zauważyła utraty słuchu",
+    "distinction": "Przy nieruchomej głowie objaw szybko mija."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Łagodne napadowe położeniowe zawroty głowy",
+    "differentiation": "Krótki, obrotowy zawrót wyzwalają określone ruchy głowy. Próba położeniowa odtwarza ten sam objaw."
+  },
+  "actions": {
+    "dix": {
+      "label": "Próba Dix–Hallpike’a",
+      "title": "Próba Dix–Hallpike’a",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Zmiana położenia wywołała krótkie zawroty i typowy położeniowy oczopląs."
+    }
+  },
+  "indications": {
+    "dix": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

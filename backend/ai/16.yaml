@@ -1,0 +1,41 @@
+{
+  "opening": "Kaszel nie daje mi spokoju.",
+  "profile": {
+    "sex": "Mężczyzna",
+    "age": 55,
+    "background": "Pracuje w serwisie."
+  },
+  "facts": {
+    "detail_1": "Od kilku dni gorączkuje",
+    "detail_2": "Kaszel jest mokry i pojawiła się duszność",
+    "detail_3": "Bok klatki boli przy głębokim wdechu",
+    "distinction": "W przeciwieństwie do pierwszych dni teraz szybciej łapie zadyszkę."
+  },
+  "fact_labels": {
+    "detail_1": "Charakter objawów",
+    "detail_2": "Okoliczności",
+    "detail_3": "Objawy towarzyszące",
+    "distinction": "Dodatkowe informacje"
+  },
+  "behavior": [
+    "Odpowiada na pytania o objawy i wcześniejsze wizyty prostym językiem."
+  ],
+  "diagnosis": {
+    "label": "Zapalenie płuc",
+    "differentiation": "Gorączka, narastająca duszność i ogniskowe zagęszczenie w RTG tworzą spójny obraz scenariusza."
+  },
+  "actions": {
+    "chest-xray": {
+      "label": "RTG klatki piersiowej",
+      "title": "RTG klatki piersiowej",
+      "result": "Wynik jest dostępny w panelu pacjenta.",
+      "finding": "Ogniskowe zagęszczenie w dolnym płacie prawego płuca."
+    }
+  },
+  "indications": {
+    "chest-xray": [
+      "detail_1",
+      "detail_2"
+    ]
+  }
+}

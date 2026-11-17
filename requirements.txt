@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+PyYAML
+faster-whisper
+piper-tts
+av==16.1.0
